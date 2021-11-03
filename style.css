@@ -128,6 +128,7 @@ nav .logo {
   margin: 5vh auto;
   border-radius: 10px;
   
+  
 }
 .container-items {
   position: absolute;
@@ -274,6 +275,25 @@ footer {
     color: rgb(255, 123, 0);
     font-size: 1.6rem;
   }
+  .container-slide{
+    width: 70vw;
+    height: 30vh;
+  }
+  .container-items {
+    width: 70vw;
+    height: 30vh;
+  }
+  .item {
+    width: 70vw;
+    height: 30vh;
+    
+  }
+  .item img {
+    width: 70vw;
+    height: 30vh;
+    
+  }
+
   .img1-menu,.img2-menu,.img3-menu,.img4-menu,.img5-menu,.img6-menu,.img7-menu,
   .img8-menu {
   width: 100px;
@@ -288,4 +308,5 @@ footer {
     margin: 10px 0 0 0;
     
   }
+
 }
