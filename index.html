@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FLIXFILMS</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img  src="./imagens/flixlogo.png" class="imagem-logo">
+    </div>
+
+    <div class="caixaPesquisa">
+      <input type="text" class="caixaText">
+      <button class="button-ok"><i class="fa fa-search"></i></button>
+    </div>
+
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#" onclick="myFunction()" class="dropbtn">Categorias</a>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" id="itens-Categoria">Animação</a>
+          <a href="#" id="itens-Categoria">Drama</a>
+          <a href="#" id="itens-Categoria">Romance</a>
+        </div>
+      </li>
+      <div class="closeMenu"><i class="fa fa-times"></i></div>
+    </ul>
+
+  </nav>
+
+  <div class="container-slide">
+    <div class="action-button" id="previous">&laquo</div>
+    <div class="container-items" id="container-items"></div>
+    <div class="action-button" id="next">&raquo</div>
+  </div>
+
+  
+  <div class="filmes-do-menu">
+    <a href="https://www.youtube.com/watch?v=E7_4ZUpyoWM">
+      <img src="imagens/LUCA.webp" class="img1-menu" alt="Imagem Filme">
+    </a>
+    <a href="https://www.youtube.com/watch?v=raLXRLgHHqI">
+      <img src="imagens/moana.jpg" class="img2-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=7ZwWKi98daA">
+      <img src="imagens/5passosdevc.jpeg" class="img3-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=HzUhz2XkFfE">
+      <img src="imagens/clemencia.jpeg" class="img4-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Rf-T--CNKMw">
+      <img src="imagens/correndoporumsonho.jpeg" class="img5-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Xs_0r9-JJdI">
+      <img src="imagens/TodoDia.jpeg" class="img6-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=DTKQvTbspoo&list=PLZqY373y6jTzbZ1edjG4MtAG08Hs6zsRm">
+      <img src="imagens/cisne.jpg" class="img7-menu" alt="Imagem Filme ">
+    </a>
+    <a href="https://www.youtube.com/watch?v=PsD0NpFSADM">
+      <img src="imagens/500dias.jpeg" class="img8-menu" alt="Imagem Filme ">
+    </a>
+
+  </div>
+  <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+  <footer>
+    <img src="imagens/flixlogo.png" alt="Logo da Flix Filmes" class="imagem-footer">
+    <p class="copyright">&copy;Copyright FlixFilmes-2021</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
